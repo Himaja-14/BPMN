@@ -1,15 +1,15 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
   <diagram name="Clothes Cleaning Process BPMN" id="9UBmaCPWodyOCk02TVJe">
-    <mxGraphModel dx="1389" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1737" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="nifRxV96iPjjo8uE8WNZ-28" value="Laundry Service" style="swimlane;horizontal=0;fillColor=#D0E3FF;strokeColor=#036;startSize=40;" parent="1" vertex="1">
           <mxGeometry x="20" y="20" width="970" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="nifRxV96iPjjo8uE8WNZ-29" value="Partner (Customer)" style="swimlane;horizontal=0;fillColor=#FFF2CC;strokeColor=#F39C12;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1" collapsed="1">
-          <mxGeometry x="50" y="20" width="40" height="130" as="geometry">
-            <mxRectangle x="50" y="20" width="920" height="160" as="alternateBounds" />
+        <mxCell id="nifRxV96iPjjo8uE8WNZ-29" value="Partner (Customer)" style="swimlane;horizontal=0;fillColor=#FFF2CC;strokeColor=#F39C12;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1">
+          <mxGeometry x="50" y="20" width="890" height="160" as="geometry">
+            <mxRectangle x="50" y="20" width="40" height="130" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-30" value="Start" style="ellipse;shape=startEvent;fillColor=#82E0AA;strokeColor=#27AE60;whiteSpace=wrap;" parent="nifRxV96iPjjo8uE8WNZ-29" vertex="1">
@@ -24,9 +24,9 @@
         <mxCell id="nifRxV96iPjjo8uE8WNZ-33" value="End" style="ellipse;shape=endEvent;fillColor=#F1948A;strokeColor=#C0392B;whiteSpace=wrap;" parent="nifRxV96iPjjo8uE8WNZ-29" vertex="1">
           <mxGeometry x="810" y="50" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nifRxV96iPjjo8uE8WNZ-34" value="Receptionist" style="swimlane;horizontal=0;fillColor=#D5F5E3;strokeColor=#28B463;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1" collapsed="1">
-          <mxGeometry x="50" y="190" width="40" height="100" as="geometry">
-            <mxRectangle x="50" y="190" width="920" height="160" as="alternateBounds" />
+        <mxCell id="nifRxV96iPjjo8uE8WNZ-34" value="Receptionist" style="swimlane;horizontal=0;fillColor=#D5F5E3;strokeColor=#28B463;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1">
+          <mxGeometry x="50" y="190" width="890" height="160" as="geometry">
+            <mxRectangle x="50" y="190" width="40" height="100" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-36" value="Tag Clothes" style="rounded=1;whiteSpace=wrap;fillColor=#D6EAF8;strokeColor=#5DADE2;" parent="nifRxV96iPjjo8uE8WNZ-34" vertex="1">
@@ -41,16 +41,16 @@
         <mxCell id="nifRxV96iPjjo8uE8WNZ-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#7FB3D5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="nifRxV96iPjjo8uE8WNZ-34" source="nifRxV96iPjjo8uE8WNZ-35" target="nifRxV96iPjjo8uE8WNZ-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nifRxV96iPjjo8uE8WNZ-38" value="Cleaning Staff" style="swimlane;horizontal=0;fillColor=#FADBD8;strokeColor=#C0392B;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1" collapsed="1">
-          <mxGeometry x="50" y="370" width="40" height="110" as="geometry">
-            <mxRectangle x="50" y="370" width="920" height="160" as="alternateBounds" />
+        <mxCell id="nifRxV96iPjjo8uE8WNZ-38" value="Cleaning Staff" style="swimlane;horizontal=0;fillColor=#FADBD8;strokeColor=#C0392B;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1">
+          <mxGeometry x="50" y="370" width="890" height="160" as="geometry">
+            <mxRectangle x="50" y="370" width="40" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-39" value="Clean Clothes" style="rounded=1;whiteSpace=wrap;fillColor=#FAD7A0;strokeColor=#F39C12;" parent="nifRxV96iPjjo8uE8WNZ-38" vertex="1">
           <mxGeometry x="120" y="40" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-40" value="Quality Control Staff" style="swimlane;horizontal=0;fillColor=#EBDEF0;strokeColor=#9B59B6;" parent="nifRxV96iPjjo8uE8WNZ-28" vertex="1">
-          <mxGeometry x="50" y="540" width="920" height="160" as="geometry">
+          <mxGeometry x="50" y="540" width="890" height="160" as="geometry">
             <mxRectangle x="50" y="540" width="40" height="140" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-43" value="Packaging Staff" style="swimlane;horizontal=0;fillColor=#F9E79F;strokeColor=#F4D03F;" parent="1" vertex="1">
-          <mxGeometry x="70" y="730" width="920" height="160" as="geometry">
+          <mxGeometry x="70" y="730" width="890" height="160" as="geometry">
             <mxRectangle x="70" y="730" width="40" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
