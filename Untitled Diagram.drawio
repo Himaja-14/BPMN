@@ -1,9 +1,90 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
-  <diagram name="Page-1" id="9UBmaCPWodyOCk02TVJe">
-    <mxGraphModel>
+  <diagram name="Clothes Cleaning Process BPMN" id="9UBmaCPWodyOCk02TVJe">
+    <mxGraphModel dx="1737" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="R6i7ApqeHpgcudSGYP0--9" value="Laundry Service" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1200" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--10" value="Partner (Customer)" style="swimlane;horizontal=0;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--9">
+          <mxGeometry width="1200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--11" value="Start" style="ellipse;shape=startEvent;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--10">
+          <mxGeometry x="60" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--12" value="Drop off Clothes" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--10">
+          <mxGeometry x="140" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--13" value="Pick up Clothes" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--10">
+          <mxGeometry x="500" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--14" value="End" style="ellipse;shape=endEvent;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--10">
+          <mxGeometry x="700" y="30" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--15" value="Receptionist" style="swimlane;horizontal=0;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--9">
+          <mxGeometry y="100" width="1200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--16" value="Create Ticket" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--15">
+          <mxGeometry x="140" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--17" value="Tag Clothes" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--15">
+          <mxGeometry x="320" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--18" value="Close Ticket" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--15">
+          <mxGeometry x="500" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--19" value="Cleaning Staff" style="swimlane;horizontal=0;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--9">
+          <mxGeometry y="200" width="1200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--20" value="Clean Clothes" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--19">
+          <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--21" value="Quality Control Staff" style="swimlane;horizontal=0;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--9">
+          <mxGeometry y="300" width="1200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--22" value="Quality Control" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--21">
+          <mxGeometry x="140" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--23" value="" style="rhombus;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--21">
+          <mxGeometry x="320" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--24" value="Packaging Staff" style="swimlane;horizontal=0;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--9">
+          <mxGeometry y="400" width="1200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--25" value="Package Clothes" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="R6i7ApqeHpgcudSGYP0--24">
+          <mxGeometry x="140" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--11" target="R6i7ApqeHpgcudSGYP0--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--12" target="R6i7ApqeHpgcudSGYP0--16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--16" target="R6i7ApqeHpgcudSGYP0--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--17" target="R6i7ApqeHpgcudSGYP0--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--20" target="R6i7ApqeHpgcudSGYP0--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--22" target="R6i7ApqeHpgcudSGYP0--23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--23" target="R6i7ApqeHpgcudSGYP0--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--25" target="R6i7ApqeHpgcudSGYP0--18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--18" target="R6i7ApqeHpgcudSGYP0--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6i7ApqeHpgcudSGYP0--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" parent="1" source="R6i7ApqeHpgcudSGYP0--13" target="R6i7ApqeHpgcudSGYP0--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
