@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.3">
   <diagram name="Clothes Cleaning Process BPMN" id="9UBmaCPWodyOCk02TVJe">
-    <mxGraphModel dx="1042" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1489" dy="810" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -77,7 +77,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;strokeColor=#85C1E9;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nifRxV96iPjjo8uE8WNZ-42" target="nifRxV96iPjjo8uE8WNZ-44" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="760" />
+              <mxPoint x="275" y="760" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="nifRxV96iPjjo8uE8WNZ-43" value="Packaging Staff" style="swimlane;horizontal=0;fillColor=#F9E79F;strokeColor=#F4D03F;" parent="1" vertex="1">
           <mxGeometry x="70" y="730" width="920" height="160" as="geometry" />
